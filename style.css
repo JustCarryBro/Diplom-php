@@ -1,0 +1,231 @@
+body{background: #1C1E1E;overflow-x: hidden;}
+#fon{position: absolute;top: 13%;width: 100%;height: 60%;background: #1C1E1E;}
+ #menu{
+     position: absolute;
+     height: 13%;
+     background-color: #0A0C0C;
+     border-radius: 0px;
+     z-index: 3;
+     object-fit: cover;
+     object-position: bottom;
+     width: 100%;
+     top: 0%;
+     left:0px;}
+
+
+ #blocksnovinkami {
+     transition: left 5s;
+     position: absolute;
+    left: -30%;
+     top: 16%;
+     width: 60%;
+     height: 60%;
+
+
+ }
+
+ #blocksnovinkami:hover {
+     left: 700px;
+ }
+
+
+ #pervifilm
+ {
+     position: absolute;
+     top: 50px;
+     width: 30%;
+     height: 80%;
+     background-image: url('images/fonchoto/FilmPravda.jpg');
+     background-size: 100% 100%;
+     border-radius: 25px;
+     background-position: center center;
+ }
+#secondfilm
+{
+    position: absolute;
+    left:32%;
+    top: 50px;
+    width: 30%;
+    height: 80%;
+    background-image: url('images/fonchoto/FilmConf.png');
+    background-size: 100% 100%;
+    border-radius: 25px;
+    background-position: center center;
+}
+
+ #therdfilm
+ {
+     position: absolute;
+     left:64%;
+     top: 50px;
+     width: 30%;
+     height: 80%;
+     background-image: url('images/fonchoto/FilmIF.png');
+     background-size: 100% 100%;
+     border-radius: 25px;
+     background-position: center center;
+ }
+ #fourfilm
+ {
+     position: absolute;
+     left:96%;
+     top: 50px;
+     width: 30%;
+     height: 80%;
+     background-image: url('images/fonchoto/FilmPutish.png');
+     background-size: 100% 100%;
+     border-radius: 25px;
+     background-position: center center;
+ }
+ #fivefilm
+ {
+     position: absolute;
+     left:128%;
+     top: 50px;
+     width: 30%;
+     height: 80%;
+     background-image: url('images/fonchoto/FilmNescaz.png');
+     background-size: 100% 100%;
+     border-radius: 25px;
+     background-position: center center;
+ }
+ #sixfilm
+ {
+     position: absolute;
+     left:160%;
+     top: 50px;
+     width: 30%;
+     height: 80%;
+     background-image: url('images/fonchoto/FilmBeverly.png');
+     background-size: 100% 100%;
+     border-radius: 25px;
+     background-position: center center;
+ }
+ #sevenfilm
+ {
+     position: absolute;
+     left:192%;
+     top: 50px;
+     width: 30%;
+     height: 80%;
+     background-image: url('images/fonchoto/FilmTillu.png');
+     background-size: 100% 100%;
+     border-radius: 25px;
+     background-position: center center;
+ }
+ #eightfilm
+ {
+     position: absolute;
+     left:-32%;
+     top: 50px;
+     width: 30%;
+     height: 80%;
+     background-image: url('images/fonchoto/FilmKraven.png');
+     background-size: 100% 100%;
+     border-radius: 25px;
+     background-position: center center;
+ }
+ #ninefilm
+ {
+     position: absolute;
+     left:-64%;
+     top: 50px;
+     width: 30%;
+     height: 80%;
+     background-image: url('images/fonchoto/FilmScream.png');
+     background-size: 100% 100%;
+     border-radius: 25px;
+     background-position: center center;
+ }
+ #pervifilm:hover {
+     transform: scale(1.1);
+ }
+ #secondfilm:hover {
+     transform: scale(1.1);
+ }
+ #therdfilm:hover {
+     transform: scale(1.1);
+ }
+ #fourfilm:hover {
+     transform: scale(1.1);
+ }
+ #fivefilm:hover {
+     transform: scale(1.1);
+ }
+ #sixfilm:hover {
+     transform: scale(1.1);
+ }
+ #sevenfilm:hover {
+     transform: scale(1.1);
+ }
+
+ #eightfilm:hover {
+     transform: scale(1.1);
+ }
+ #ninefilm:hover {
+     transform: scale(1.1);
+ }
+
+ #blockspodpiskoi{position: absolute;left:0%; width: 100%;height: 80%;top:80%; background-color: crimson;background-image: url('images/fonchoto/FonChoto.jpg')}
+
+ #nastroykblockapodpiski{position: absolute;left:35%;top:10%; width:30%; height:80%;border-radius: 30px;background-size: cover ;background-image: url('images/fonchoto/makdak.jpg');font-size: 40px;color: ghostwhite;
+     background-position: center; font-family:Trattatello, fantasy;text-align: center; box-shadow: 0 15px 35px rgb(255, 215,0);}
+
+ #text3mfasfdsa{font-size: 25px; font-family:Trattatello, fantasy;text-align: center;  }
+ #buypodiska{position: absolute;left: 35%;top:70%;width:30%;height:10%;}
+
+
+ #blockspodpiskoi1{position: absolute;left:0%; width: 100%;height: 100%;top:0%; background-color: crimson;background-image: url('images/fonchoto/dragon.jpg')}
+
+ #kartochka1{position: absolute;}
+
+ /*
+ КРЧ ТУТ ЩАС БУДУТ ЦИФАРКИ И БУКАВКИ ДЛЯ КАРТЫ БАНКОВСКОЙ ЧТО БЫ БАБЛА МЕСТИ - ГРЕСТИ
+  */
+ #nastroykblockapodpiski1{position: absolute;left:40%;top:0%; width:512px; height:512px;background-image: url('images/fonchoto/kartochka.com.png');}
+ #name1{position: absolute;left: 7%;top: 62%;width:75%;height:11%;font-size: 25px;letter-spacing: 3px;}
+ #data1{position: absolute;left: 7%;top: 43%;width:38%;height:12%;font-size: 25px;}
+ #number1{position: absolute;left:75%;top:43%;width:17%;height:11%;font-size: 25px;}
+
+ #buypodiska1{position: absolute;left: 10%;top:85%;width:30%;height:15%;border-radius: 20px;background-color: #29bda2;font-size: 20px;font-family: Calibri Light;}
+ #buttonback{position: absolute;left: 60%;top:85%;width:30%;height:15%;border-radius: 20px;background-color: #29bda2;font-size: 20px;font-family: Calibri Light;}
+ #buypodiska1:hover{
+     transform: scale(1.2);
+ }
+ #buttonback:hover{
+     transform: scale(1.2);
+ }
+ /*
+ СПОРТ БЛОК
+  */
+ #sportBlock{position:absolute;top:175%;left:0%;height: 70%;width: 100%; background-image: url("images/fonchoto/basketball.jpg")}
+ #textsportname{position: absolute;top:5%;left:2%;width:50%;height: 7%;color:black;background-color: #E6F5F5;font-size: 30px;text-align:center;background-size: cover;font-family: FreeMono, monospace;border-radius: 40px; flex: 0 0 120px;align-items: center;}
+ #bascetball{position: absolute;top:40%;left:5%;width:20%;height: 50%; background-image: url("images/sport/basketball/basketball.jpg");border-radius: 25px;background-position: center;background-size: cover;}
+ #football{position: absolute;top:40%;left:27%;width:20%;height: 50%; background-image: url("images/sport/football/football.jpg");background-position:center;border-radius: 25px;background-size: cover;}
+ #hocckey{position: absolute;top:40%;left:49%;width:20%;height: 50%; background-image: url("./images/sport/hockey.jpg");background-position:right;border-radius: 25px;background-size: cover;}
+ #ufc{position: absolute;top:40%;left:71%;width:20%;height: 50%;border-radius: 25px;background-image: url("./images/sport/ufc.jpg");background-size: cover;background-position:right;background-position-x:-50px;}
+ /*
+  КИБЕР-СПОРТ БЛОК
+   */
+ #textcibersportname{position: absolute;top:5%;left:2%;width:50%;height: 12%;color:black;background-color: #E6F5F5;font-size: 30px;text-align:center;background-size: cover;font-family: FreeMono, monospace;border: 3px solid black;border-radius: 40px; flex: 0 0 120px;align-items: center;}
+ #ciberSportBlock {position:absolute;top:260%;left:0%;height: 70%;width: 100%; background-image: url("images/cybersport/fonckibersport.jpg")}
+ #dota2{position: absolute;top:40%;left:5%;width:20%;height: 50%; background-image: url("images/cybersport/dota2.jpg");background-position:right;border-radius: 25px;background-size: cover;}
+ #cs2{position: absolute;top:40%;left:27%;width:20%;height: 50%; background-image: url("images/cybersport/cs2.jpg");background-position:right;border-radius: 25px;background-size: cover;background-position-x:470px;}
+ #pubg{position: absolute;top:40%;left:49%;width:20%;height: 50%; background-image: url("images/cybersport/pubg.jpg");background-position:right;border-radius: 25px;background-size: cover;background-position-x:430px;}
+ #valorant{position: absolute;top:40%;left:71%;width:20%;height: 50%; background-image: url("images/cybersport/valorant.jpg");background-position:right;border-radius: 25px;background-size: cover;background-position-x:630px;}
+
+ /*
+ ЛИНИИ ГРАДИЕНТА
+  */
+
+ #line2{position: absolute;left:-1%;top:135%;width: 100%;height: 2%;background: linear-gradient(to right, rgba(255, 0, 0, .5), rgba(0, 0, 255, 1));}
+ #line3{position: absolute;left:-1%;top:205%;width: 100%;height: 2%;background: linear-gradient(to right, rgba(255, 0, 0, .5), rgba(0, 0, 255, 1));}
+ /*
+ ЖАНРЫ
+  */
+#blokjanri{position: absolute;top: 345%;width: 100%;left:0%;height: 70%;background-image: url('images/film/fonfilm.jpg');background-size: cover;}
+ #textjanri{position: absolute;top:5%;left:10%;width:15%;height: 7%;color:black;background-color: #E6F5F5;font-size: 30px;text-align:center;background-size: cover;font-family: FreeMono, monospace;border-radius: 40px; flex: 0 0 120px;align-items: center;}
+ #comedy{position: absolute;top:40%;left:5%;width:20%;height: 50%;background-image: url("./images/categoryfilm/comedy.jpg");background-position:center;border-radius: 25px;background-size: cover;}
+ #boevik{position: absolute;top:40%;left:27%;width:20%;height: 50%;background-image: url("./images/categoryfilm/boevik.jpg");background-position:center;border-radius: 25px;background-size: cover;}
+ #drama{position: absolute;top:40%;left:49%;width:20%;height: 50%;background-image:url('./images/categoryfilm/drama.jpg');background-position:center;border-radius: 25px;background-size: cover;}
+ #fantasy{position: absolute;top:40%;left:71%;width:20%;height: 50%;background-image:url('./images/categoryfilm/fantasy.jpg');background-position:top;border-radius: 25px;background-size: cover;}
